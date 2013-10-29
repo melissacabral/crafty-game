@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="grass-tiles-2-small" tilewidth="32" tileheight="32">
+  <image source="../../../../Downloads/tileset/tileset/grass-tiles-2-small.png" width="384" height="192"/>
+ </tileset>
+ <tileset firstgid="73" name="tree2-final" tilewidth="32" tileheight="32">
+  <image source="../../../../Downloads/tileset/tileset/tree2-final.png" trans="ff00ff" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="137" name="littleshrooms_0" tilewidth="32" tileheight="40">
+  <image source="../../../../Downloads/tileset/tileset/littleshrooms_0.png" trans="ff00ff" width="32" height="40"/>
+ </tileset>
+ <layer name="background" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJytVMtugzAQNFShAUqVEAikpepDal5qDki55tYP49O7FrtiuloQhxxGYxJ7dvZhB865kBDciTPC8x1ZdFPCkxFvRfgm7BXL+ky48f4UdCtCzd8rOJMTHgkJc8zssSR8Ed57ra4a8ZOrs543jJJZ9Pz3a++nC40cUKsEjYKwIOwIEfj1mgfI08rF0niBPBrlcc11DCGPBPwkoNUafWwgfqLqKLEtbo36ej5ybI8t6y25jpkbZmXunF05ZgQ5F1zHwA2zgj5O0KOx+ctBD/3p+B+ET9iLdYrVb5Y/XZ8Gem3pSe+wdlP+fggX7nUBZ3GNeRYT/lLmN9VrWUfKk8yV/+/B8Ff1mp30+xf6sOceiG/Rst4X4bq/113NWnIegZ5aN+/9s7Tw7uF+nF+rv1ordsPds/bj/I75Kt1/X3Pf5z9inxta
+  </data>
+ </layer>
+ <layer name="foreground" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUEALVQFwDxLVAXEcF85qBuAWIW4G4jQrmjYJRMBAAALVlBAU=
+  </data>
+ </layer>
+ <layer name="top" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt0TlSAkEAhtG5nqyyCrIqiwooOwIJGKm35h1gkmnImL/qJR181dUdRemu2QMZsuTIU6DIY0CvRJkKVWrUeaIR0GvyTIs2Hbr06POfsPfCKwOGjBjzxnvA/T6YMGXGJ1/MWQT0lqxYs2HLjm/2Ab0Dx5jzE+eA3k8U/+a//AX04pb0T+9p6dvcdhcIdhe/
+  </data>
+ </layer>
+ <objectgroup name="collision" width="20" height="20">
+  <object x="63" y="322" width="128" height="61"/>
+ </objectgroup>
+</map>
